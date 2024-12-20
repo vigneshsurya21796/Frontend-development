@@ -1,0 +1,75 @@
+.Forms__container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    padding: 5px;
+    font-family: "Lato", serif;
+}
+.Forms__container-header h3{
+    text-align: center;
+    font-weight: 500;
+
+}
+.Forms__container-header{
+    height: 25rem;
+    width:41rem;
+    background-color: rgba(128, 128, 128, 0.73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    border-radius: 10px 10px;
+}
+.Forms__container-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.Forms__container-flex div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.Forms__container-flex label {
+    display: inline-flex;
+    gap: 10px;
+    justify-content: flex-end;
+    text-align: right;
+    width: 8rem;
+    margin-right: 10px;
+}
+
+.Forms__container-flex input {
+    height: 30px;
+    width:25rem;
+}
+
+.Forms__container-flex button {
+
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    /*border-radius: 10px;*/
+    /*font-weight: 500;*/
+}
+.Forms__container-flex button:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 550px) {
+    .Forms__container-flex input {
+        height: 30px;
+        width:15rem;
+    }
+}
