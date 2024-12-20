@@ -66,10 +66,6 @@ const Table = () => {
     return (
         <div>
         <Forms adduser={adduser} />
-            <div className="Table__refresh-container">
-
-
-            </div>
             <div className="Table__search-container">
                 <div className="Table__container-item1">
                     <label htmlFor="Search">Search:</label>
